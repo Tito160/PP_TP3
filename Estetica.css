@@ -4,14 +4,24 @@ body{
     background-color: darkturquoise;
     border-style: dotted;
     border-color: rgb(187, 42, 11);
-    animation: cambioColor 10s infinite alternate;
+    animation: cambioColor 12s infinite alternate;
 }
 @keyframes cambioColor {
-    0%   { background-color: #ff6b6b; }
-    25%  { background-color: #feca57; }
-    50%  { background-color: #1dd1a1; }
-    75%  { background-color: #54a0ff; }
-    100% { background-color: #5f27cd; }
+0% {        
+    background-color: #ff6b6b;
+}
+25% {
+    background-color: #feca57;
+}
+50% {
+    background-color: #1dd1a1;
+}
+75% {
+    background-color: #54a0ff;
+}
+100% {
+    background-color: #5f27cd;
+}
 }
 
 h1{
