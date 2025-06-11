@@ -2,7 +2,28 @@ body{
     margin-left: 3%;
     font-family: 'Edu SA Hand';
     background-color: darkturquoise;
+    border-style: dotted;
+    border-color: rgb(187, 42, 11);
+    animation: cambioColor 12s infinite alternate;
 }
+@keyframes cambioColor {
+0% {        
+    background-color: #ff6b6b;
+}
+25% {
+    background-color: #feca57;
+}
+50% {
+    background-color: #1dd1a1;
+}
+75% {
+    background-color: #54a0ff;
+}
+100% {
+    background-color: #5f27cd;
+}
+}
+
 h1{
     text-align: center;
     font-family: 'Edu SA HandD';
@@ -16,6 +37,7 @@ b{
 }
 h2{
     font-family: 'Edu SA HandD';
+    margin-left: 3%;
 }
 .Imagenes{
     margin-top: 20px;
@@ -24,4 +46,13 @@ h2{
 a{
     color: black;
     text-decoration: none;
+}
+p{
+    margin-left: 3%;
+    border-style: dotted;
+    border-color: chartreuse;
+}
+#distancia{
+    margin-left: 1px;
+    text-decoration: underline;
 }
